@@ -6,4 +6,3 @@ auth_router = APIRouter(prefix="/auth", tags=["auth"])
 async def auth_root():
     """Authentication endpoint"""
     return {"message": "Authentication endpoint"}
-
